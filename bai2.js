@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-<script src="#1.js"></script>
-<script>
 // 1. Store Mark's and John's mass and height in variables
 var heightMark = 1.70
 var heightJohn = 1.75
@@ -46,9 +34,7 @@ if(markHigherBMI = true) {
 }
 
 if(markHigherBMI = true) {
-    console.log(`Mark's BMI (${BMI_Mark.toFixed(2)}) is higher than John's (${BMI_John.toFixed(2)})!`)
+    console.log(`Mark's BMI (${BMI_Mark}) is higher than John's (${BMI_John})!`)
 } else {
-    console.log(`John's BMI (${BMI_John.toFixed(2)}) is higher than Mark's (${BMI_Mark.toFixed(2)})!`)
+    console.log(`John's BMI (${BMI_John}) is higher than Mark's (${BMI_Mark})!`)
 }
-</script>
-</html>

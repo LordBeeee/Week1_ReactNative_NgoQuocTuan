@@ -4,10 +4,12 @@
 // and height in meter).
 
 // 1. Store Mark's and John's mass and height in variables
-var heightMark = 170
-var heightJohn = 175
-var massMark = 59
-var massJohn = 65
+var heightMark = 1.69
+var heightJohn = 1.95
+var massMark = 78
+var massJohn = 92
+
+
 // 2. Calculate both their BMIs using the formula (you can even implement both
 // versions)
 
@@ -21,8 +23,8 @@ console.log(BMI_John)
 
 var markHigherBMI 
 
-if(BMI_Mark> BMI_John) {
-    console.log(markHigherBMI = true )
+if(markHigherBMI = true) {
+    console.log(`Mark's BMI (${BMI_Mark.toFixed(2)}) is higher than John's (${BMI_John.toFixed(2)})!`)
 } else {
-    console.log(markHigherBMI = false)
+    console.log(`John's BMI (${BMI_John.toFixed(2)}) is higher than Mark's (${BMI_Mark.toFixed(2)})!`)
 }
