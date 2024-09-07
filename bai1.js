@@ -1,15 +1,8 @@
-// Mark and John are trying to compare their BMI (Body Mass Index), which is
-// calculated using the formula:
-// BMI = mass / height ** 2 = mass / (height * height) (mass in kg
-// and height in meter).
-
 // 1. Store Mark's and John's mass and height in variables
-var heightMark = 1.69
-var heightJohn = 1.95
-var massMark = 78
-var massJohn = 92
-
-
+var heightMark = 1.70
+var heightJohn = 1.75
+var massMark = 59
+var massJohn = 65
 // 2. Calculate both their BMIs using the formula (you can even implement both
 // versions)
 
@@ -23,8 +16,25 @@ console.log(BMI_John)
 
 var markHigherBMI 
 
-if(markHigherBMI = true) {
-    console.log(`Mark's BMI (${BMI_Mark.toFixed(2)}) is higher than John's (${BMI_John.toFixed(2)})!`)
+if(BMI_Mark> BMI_John) {
+    markHigherBMI = true 
 } else {
-    console.log(`John's BMI (${BMI_John.toFixed(2)}) is higher than Mark's (${BMI_Mark.toFixed(2)})!`)
+    markHigherBMI = false
+}
+
+// 1. Print a nice output to the console, saying who has the higher BMI. The message
+// is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
+// 2. Use a template literal to include the BMI values in the outputs. Example: "Mark's
+// BMI (28.3) is higher than John's (23.9)!"
+
+if(markHigherBMI = true) {
+    console.log("Mark's BMI is higher than John's!")
+} else {
+    console.log("John's BMI is higher than Mark's!")
+}
+
+if(markHigherBMI = true) {
+    console.log(`Mark's BMI (${BMI_Mark}) is higher than John's (${BMI_John})!`)
+} else {
+    console.log(`John's BMI (${BMI_John}) is higher than Mark's (${BMI_Mark})!`)
 }
