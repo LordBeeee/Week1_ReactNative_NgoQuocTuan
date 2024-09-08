@@ -9,10 +9,8 @@ var heightJohn = 1.95
 var massMark = 78
 var massJohn = 92
 
-
 // 2. Calculate both their BMIs using the formula (you can even implement both
 // versions)
-
 
 BMI_Mark = massMark / (heightMark*heightMark)
 console.log(BMI_Mark)

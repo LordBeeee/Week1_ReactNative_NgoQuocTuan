@@ -21,7 +21,6 @@ var bills = [275,40,430]
 // console.log(tips)
 // console.log(`The bill was ${bills[i]}, the tip was ${tip}, and the total value ${bills[i]+tip}`)
 
-
 for(let i = 0; i < bills.length; i++) {
     let tip = (bills[i] >= 50 && bills[i] <= 300) ? bills[i]*15/100 : bills[i]*20/100
     console.log(`The bill was ${bills[i]}, the tip was ${tip}, and the total value ${bills[i]+tip}`)

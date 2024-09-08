@@ -1,11 +1,9 @@
 // There are two gymnastics teams, Dolphins and Koalas. They compete against each
 // other 3 times. The winner with the highest average score wins a trophy!
-
 // Your tasks:
 // 1. Calculate the average score for each team, using the test data below
 var Dolphins = [96,108,89]
 var Koalas = [88,91,110]
-
 const tinhTB = (x) =>{
     let sum = 0;
     for(let i = 0; i <x.length;i++){

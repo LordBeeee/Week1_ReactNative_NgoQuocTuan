@@ -4,7 +4,6 @@
 // one average score per team).
 // A team only wins if it has at least double the average score of the other team.
 // Otherwise, no team wins!
-
 var Dolphins_1=[44,23,71]
 var Koalas_1=[65,54,49]
 var Dolphins_2=[85,54,41]
@@ -18,7 +17,6 @@ const calcAverage = (x) =>{
     }
     return sum/x.length
 }
-
 // 2. Use the function to calculate the average for both teams
 var Ave_Dolphins_1 =calcAverage(Dolphins_1)
 var Ave_Koalas_1 =calcAverage(Koalas_1)
